@@ -67,7 +67,7 @@
                 })
             });
             vector.setStyle(style);
-            var capabilitiesUrl = 'https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml';
+            var capabilitiesUrl = 'https://mapsneu.wien.gv.at/basemapneu/1.0.0/WMTSCapabilities.xml';
 
             // HiDPI support:
             // * Use 'bmaphidpi' layer (pixel ratio 2) for device pixel ratio > 1
@@ -160,7 +160,7 @@
                                     var hoe = Math.round(zeile.split(" ")[1] * 100) / 100;
                                     document.getElementById("z").innerHTML = "Elevation : " + hoe + " m ";
 
-                                    //document.getElementById("z").innerHTML = "Seehöhe: " + (Math.round(zeile.split(" ")[1] * 100) / 100) + " m";
+                                    //document.getElementById("z").innerHTML = "Seehï¿½he: " + (Math.round(zeile.split(" ")[1] * 100) / 100) + " m";
                                     break;
                                 } else {
                                     document.getElementById("z").innerHTML = "No elevation data. Elevation values are only in the area of East Tyrol available.";
